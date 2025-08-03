@@ -1,0 +1,244 @@
+*** File Version: 21.00
+
+Number of ports: 11
+Portnames: "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11"
+Modenumbers: 1 1 1 1 1 1 1 1 1 1 1
+Porttypes: 1 1 1 1 1 1 1 1 1 1 1
+Portlabels: "" "" "" "" "" "" "" "" "" "" ""
+StaticSources:
+ThermalSources:
+FloquetPortNames:
+FloquetPortModes:
+SchematicPortNames:
+SchematicPortLabels:
+Terminals:
+StaticToReferenceTable:
+ThermalToReferenceTable:
+TerminalToReferenceTable:
+PortToReferenceTable: "1" "1'" "2" "2'" "3" "3'" "4" "4'" "5" "5'" "6" "6'" "7" "7'" "8" "8'" "9" "9'" "10" "10'" "11" "11'"
+FloquetToReferenceTable:
+SchematicToReferenceTable:
+StaticSourceGroups:
+ThermalSourceGroups:
+TerminalSourceGroups:
+PortSourceGroups:
+FloquetPortSourceGroups:
+SchematicPortSourceGroups:
+Number of frequency-points: 11
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+Fscale: 1.000000e+09
+
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 11
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 10
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 9
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 8
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 7
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 6
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 5
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 4
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 3
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 2
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 1
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 2.400000e+09
+Fmin: 2.000000e+09
+Fmax: 2.800000e+09
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+
+
+*** newmonitor
+monname: "farfield (f=2.4)"
+nmonfrequencies: 1
+monfrequencies: "2.3999999999999999" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "e-field (f=2.4)"
+nmonfrequencies: 1
+monfrequencies: "2.3999999999999999" 
+montype: 0
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
